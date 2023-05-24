@@ -24,7 +24,8 @@
 2. Safe Distance Alarm
       - In shell 4:
 
-       $ python safe_dist.py
+       $ python safe_distance.py
+      
        
        
 
