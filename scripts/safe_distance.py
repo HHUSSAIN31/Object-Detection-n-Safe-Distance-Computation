@@ -36,8 +36,8 @@ def manipulate(data):
     # computing actual distance using precomputed focal length
     actual_distance = distance_to_camera(14, FOCAL_LENGTH, marker[1][0])
 
-    if actual_distance < 10:
-        print("Safe distance boundary exceeded by:" + 10-actual_distance)
+    if actual_distance < 5:
+        print("Safe distance boundary exceeded by:" + 5-actual_distance)
     else:
         rospy.loginfo(rospy.get_caller_id() + "Current Distance to object: %s", actual_distance)
 
